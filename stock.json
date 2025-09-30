@@ -1,0 +1,22 @@
+{
+  "cereales": {
+    "riz": 1,
+    "pates": 3
+  },
+  "legumineuses": {
+    "lentilles": 0,
+    "pois_chiches": 2
+  },
+  "condiments": {
+    "huile_olive": 1,
+    "sel": 1
+  },
+  "legumes": {
+    "courgette": 2,
+    "carotte": 5
+  },
+  "fruits": {
+    "pomme": 6,
+    "banane": 3
+  }
+}

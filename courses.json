@@ -1,0 +1,15 @@
+{
+  "semaine": "2025-W40",
+  "courses": {
+    "legumes": {
+      "courgette": 1,
+      "oignon": 2
+    },
+    "fruits": {
+      "pomme": 4
+    },
+    "cereales": {
+      "riz": 2
+    }
+  }
+}
