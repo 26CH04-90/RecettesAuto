@@ -1,0 +1,54 @@
+{
+  "epices_condiments": {
+    "sel": 0,
+    "poivre": 0,
+    "huile_d_olive": 0,
+    "vinaigre": 0,
+    "curry": 0
+  },
+  "placard": {
+    "riz": 0,
+    "pates": 0,
+    "lentilles": 0,
+    "haricots_rouges": 0,
+    "pois_chiches": 0,
+    "farine": 0,
+    "lait_de_coco": 0,
+    "lait_d_amande": 0
+  },
+  "frigo": {
+    "yaourt_lait_vache": 0,
+    "yaourt_vegetal": 0,
+    "creme": 0,
+    "creme_vegetale": 0,
+    "beurre": 0,
+    "fromage": 0
+  },
+  "legumes": {
+    "courgette": 0,
+    "carotte": 0,
+    "pomme_de_terre": 0,
+    "oignon": 0,
+    "poivron": 0,
+    "tomate": 0
+  },
+  "fruits": {
+    "pomme": 0,
+    "banane": 0,
+    "poire": 0,
+    "citron": 0,
+    "orange": 0
+  },
+  "surgelés": {
+    "epinards": 0,
+    "petits_pois": 0,
+    "framboises": 0,
+    "poulet": 0,
+    "poisson": 0
+  },
+  "autres": {
+    "pain": 0,
+    "oeufs": 0,
+    "chocolat": 0
+  }
+}
