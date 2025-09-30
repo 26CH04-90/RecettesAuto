@@ -21,6 +21,10 @@
   "options": {
     "saisonnalite": false,
     "frequence_generation": "hebdomadaire",
-    "budget_max": null
-  }
+  },
+  {"achats": {
+    "priorité_bio": false,
+    "priorité_produits_locaux": false,
+    "strategie_prix": "equilibre",
+  }}
 }
