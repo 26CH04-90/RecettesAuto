@@ -1,0 +1,26 @@
+{
+  "nombre_personnes": 2,
+  "regimes": {
+    "sans_proteines_bovines": false,
+    "sans_lactose": false,
+    "sans_gluten": false,
+    "postpartum": false,
+    "allaitement": false,
+    "vegetarien": false,
+    "vegan": false,
+    "pescetarien": false,
+    "flexitarien": false,
+    "cetogene": false,
+    "low_carb": false
+  },
+  "preferences": {
+    "plats_epices": false,
+    "plats_en_sauce": false,
+    "fruits_de_mer": false
+  },
+  "options": {
+    "saisonnalite": false,
+    "frequence_generation": "hebdomadaire",
+    "budget_max": null
+  }
+}
