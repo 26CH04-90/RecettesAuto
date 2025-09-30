@@ -1,0 +1,12 @@
+{
+  "personnes": 4,
+  "regime": "aucun",
+  "preferences": {
+    "plats_epices": true,
+    "fruits_de_mer": false,
+    "plats_en_sauce": true
+  },
+  "saisonnalite": true,
+  "frequence_generation": "hebdomadaire",
+  "budget_max": 120
+}

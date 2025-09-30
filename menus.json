@@ -1,0 +1,21 @@
+{
+  "semaine": "2025-W40",
+  "recettes": [
+    {
+      "nom": "Curry de lentilles",
+      "ingredients": {
+        "lentilles": 200,
+        "oignon": 1,
+        "curry": 1
+      }
+    },
+    {
+      "nom": "Soupe de courgettes",
+      "ingredients": {
+        "courgette": 3,
+        "pommes_de_terre": 2,
+        "ail": 1
+      }
+    }
+  ]
+}
