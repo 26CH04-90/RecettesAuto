@@ -1,104 +1,79 @@
 {
-  "semaine": "2025-W40",
-  "date_generation": "2025-09-30",
-  "repas": [
-    {
-      "jour_soir": 1,
-      "jour_midi": 2,
-      "nom": "Curry de lentilles corail",
-      "ingredients": [
-        "lentilles",
-        "lait_coco",
-        "epinards",
-        "patate_douce",
-        "gingembre"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    },
-    {
-      "jour_soir": 2,
-      "jour_midi": 3,
-      "nom": "Salade de pois chiches croustillants",
-      "ingredients": [
-        "pois_chiches",
-        "tomates",
-        "concombre",
-        "persil",
-        "citron"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    },
-    {
-      "jour_soir": 3,
-      "jour_midi": 4,
-      "nom": "Saumon au four et quinoa",
-      "ingredients": [
-        "saumon",
-        "quinoa",
-        "courgettes",
-        "citron",
-        "aneth"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    },
-    {
-      "jour_soir": 4,
-      "jour_midi": 5,
-      "nom": "Tofu fumé et brocoli sauté",
-      "ingredients": [
-        "tofu",
-        "brocoli",
-        "champignons",
-        "ail",
-        "tamari"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    },
-    {
-      "jour_soir": 5,
-      "jour_midi": 6,
-      "nom": "Soupe minestrone aux haricots blancs",
-      "ingredients": [
-        "haricots_blancs",
-        "carottes",
-        "blettes",
-        "tomates",
-        "origan"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    },
-    {
-      "jour_soir": 6,
-      "jour_midi": 7,
-      "nom": "Cabillaud vapeur et légumes racines",
-      "ingredients": [
-        "cabillaud",
-        "panais",
-        "carottes",
-        "poireau",
-        "huile_olive"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    },
-    {
-      "jour_soir": 7,
-      "jour_midi": 8,
-      "nom": "Risotto de sarrasin aux champignons",
-      "ingredients": [
-        "sarrasin",
-        "champignons",
-        "bouillon_legumes",
-        "petits_pois",
-        "ciboulette"
-      ],
-      "etat": "proposé",
-      "commentaire": ""
-    }
-  ]
+  "Repas1": {
+    "Titre": "Curry de lentilles corail",
+    "Ingrédients": [
+      "lentilles",
+      "lait_coco",
+      "epinards",
+      "patate_douce",
+      "gingembre"
+    ],
+    "État": "proposé"
+  },
+  "Repas2": {
+    "Titre": "Salade de pois chiches croustillants",
+    "Ingrédients": [
+      "pois_chiches",
+      "tomates",
+      "concombre",
+      "persil",
+      "citron"
+    ],
+    "État": "proposé"
+  },
+  "Repas3": {
+    "Titre": "Saumon au four et quinoa",
+    "Ingrédients": [
+      "saumon",
+      "quinoa",
+      "courgettes",
+      "citron",
+      "aneth"
+    ],
+    "État": "proposé"
+  },
+  "Repas4": {
+    "Titre": "Tofu fumé et brocoli sauté",
+    "Ingrédients": [
+      "tofu",
+      "brocoli",
+      "champignons",
+      "ail",
+      "tamari"
+    ],
+    "État": "proposé"
+  },
+  "Repas5": {
+    "Titre": "Soupe minestrone aux haricots blancs",
+    "Ingrédients": [
+      "haricots_blancs",
+      "carottes",
+      "blettes",
+      "tomates",
+      "origan"
+    ],
+    "État": "proposé"
+  },
+  "Repas6": {
+    "Titre": "Cabillaud vapeur et légumes racines",
+    "Ingrédients": [
+      "cabillaud",
+      "panais",
+      "carottes",
+      "poireau",
+      "huile_olive"
+    ],
+    "État": "proposé"
+  },
+  "Repas7": {
+    "Titre": "Risotto de sarrasin aux champignons",
+    "Ingrédients": [
+      "sarrasin",
+      "champignons",
+      "bouillon_legumes",
+      "petits_pois",
+      "ciboulette"
+    ],
+    "État": "proposé"
+  }
 }
