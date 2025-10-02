@@ -33,8 +33,10 @@ RecettesAuto/
 
 1. **Configuration** (`data/config.json`)
    - Nombre de personnes, régimes, préférences, contraintes d’achat.
+   - Nouveau paramètre `options.semaines_historique` pour définir combien de semaines
+     récentes sont consultées afin d’éviter les répétitions de plats.
 2. **Menus** (`data/menus.json`)
-   - Génération via l’API GPT.
+   - Génération via l’API GPT en tenant compte de l’historique.
    - Validation/refus des propositions.
 3. **Stock** (`data/stock.json`)
    - Tenir à jour les ingrédients disponibles (Raccourcis iOS, etc.).
@@ -57,6 +59,14 @@ python main.py
 - **Modifier le stock** : met à jour `data/stock.json`.
 - **Valider les menus** : change l’état des repas (proposé, validé, refusé).
 - **Générer les courses** : (à venir) appel à l’API GPT puis écriture de `data/courses.json`.
+
+## 🗂️ Historique des menus
+
+- Le fichier `data/menus.json` est désormais organisé par semaine (format `YYYY-Www`).
+- Chaque génération crée une nouvelle entrée sans écraser les précédentes, ce qui permet
+  de conserver un historique complet.
+- Lors de la génération, RecettesAuto consulte automatiquement les `semaines_historique`
+  dernières semaines définies dans la configuration pour éviter de reproposer les mêmes plats.
 
 ## 🔒 Configuration OpenAI
 

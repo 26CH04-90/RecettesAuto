@@ -69,6 +69,14 @@ def validate_config(config: Dict[str, Any]) -> Tuple[bool, List[str]]:
         if section in config and not isinstance(config[section], dict):
             errors.append(f"La section '{section}' doit être un objet JSON.")
 
+    options = config.get("options", {}) if isinstance(config.get("options", {}), dict) else {}
+    weeks_history = options.get("semaines_historique")
+    if weeks_history is not None:
+        if not isinstance(weeks_history, int) or weeks_history < 0:
+            errors.append(
+                "L'option 'semaines_historique' doit être un entier supérieur ou égal à 0."
+            )
+
     return not errors, errors
 
 

@@ -20,7 +20,8 @@
   },
   "options": {
     "saisonnalite": true,
-    "frequence_generation": "hebdomadaire"
+    "frequence_generation": "hebdomadaire",
+    "semaines_historique": 4
   },
   "achats": {
     "priorite_bio": true,
