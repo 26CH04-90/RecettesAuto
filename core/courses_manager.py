@@ -9,7 +9,7 @@ from typing import Any, Dict
 from . import DATA_DIR
 from .config_manager import load_and_validate
 from .gpt_api import ask_gpt
-from .menu_manager import load_menus
+from .menu_manager import get_week_identifier, load_menus
 from .stock_manager import load_stock
 
 COURSES_PATH = DATA_DIR / "courses.json"
@@ -38,7 +38,8 @@ def generate_courses(*, path: Path | None = None) -> Dict[str, Any]:
     """Demande à GPT de produire une nouvelle liste de courses."""
 
     config = load_and_validate()
-    menus = load_menus()
+    current_week = get_week_identifier()
+    menus = load_menus(week_id=current_week)
     stock = load_stock()
 
     prompt = (
@@ -49,6 +50,7 @@ def generate_courses(*, path: Path | None = None) -> Dict[str, Any]:
     payload = {
         "config": config,
         "menus": menus,
+        "semaine_courante": current_week,
         "stock": stock,
     }
 
