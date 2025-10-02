@@ -20,11 +20,11 @@
   },
   "options": {
     "saisonnalite": true,
-    "frequence_generation": "hebdomadaire",
+    "frequence_generation": "hebdomadaire"
   },
-  {"achats": {
-    "priorité_bio": true,
-    "priorité_produits_locaux": true,
-    "strategie_prix": "equilibre",
-  }}
+  "achats": {
+    "priorite_bio": true,
+    "priorite_produits_locaux": true,
+    "strategie_prix": "equilibre"
+  }
 }

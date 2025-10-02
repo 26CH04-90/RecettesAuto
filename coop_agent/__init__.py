@@ -1,0 +1,1 @@
+"""Paquet d'automatisation Coop."""
