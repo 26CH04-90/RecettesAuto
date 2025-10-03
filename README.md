@@ -71,3 +71,7 @@ python main.py
 ## 🔒 Configuration OpenAI
 
 Renseigner la variable d’environnement `OPENAI_API_KEY` avant d’appeler les fonctions utilisant l’API.
+
+Vous pouvez la définir directement dans votre shell (`export OPENAI_API_KEY=...`) **ou** créer un fichier `.env`
+à la racine du projet contenant une ligne `OPENAI_API_KEY=...`. Le chargeur intégré lit automatiquement ce
+fichier et n’écrase jamais une variable déjà présente dans l’environnement.

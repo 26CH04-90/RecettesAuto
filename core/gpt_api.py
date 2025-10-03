@@ -4,12 +4,50 @@ from __future__ import annotations
 
 import json
 import os
+from pathlib import Path
 from typing import Any, Dict, Optional
 
 try:
     import openai
 except ModuleNotFoundError:  # pragma: no cover - dépendance optionnelle
     openai = None  # type: ignore
+
+
+_ENV_FILE_CANDIDATES = (
+    Path(__file__).resolve().parents[1] / ".env",
+    Path.cwd() / ".env",
+)
+
+
+def _ensure_env_loaded() -> None:
+    """Charge les variables d'environnement depuis un fichier ``.env`` si présent."""
+
+    if getattr(_ensure_env_loaded, "_loaded", False):  # type: ignore[attr-defined]
+        return
+
+    for candidate in _ENV_FILE_CANDIDATES:
+        if not candidate.exists():
+            continue
+        try:
+            content = candidate.read_text(encoding="utf-8")
+        except OSError:
+            continue
+
+        for raw_line in content.splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" not in line:
+                continue
+            key, value = line.split("=", maxsplit=1)
+            key = key.strip()
+            value = value.strip()
+            if len(value) >= 2 and value[0] == value[-1] and value[0] in {'"', "'"}:
+                value = value[1:-1]
+            if key and key not in os.environ:
+                os.environ[key] = value
+
+    setattr(_ensure_env_loaded, "_loaded", True)
 
 
 def ask_gpt(prompt: str, input_data: Optional[Dict[str, Any]] = None, *, model: str = "gpt-4o-mini") -> Dict[str, Any]:
@@ -22,6 +60,8 @@ def ask_gpt(prompt: str, input_data: Optional[Dict[str, Any]] = None, *, model: 
 
     if openai is None:
         raise RuntimeError("La librairie 'openai' n'est pas installée.")
+
+    _ensure_env_loaded()
 
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
