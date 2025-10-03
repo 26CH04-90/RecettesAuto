@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function chargerRecette() {
+  if (window.location.protocol === "file:") {
+    afficherErreur(
+      "Impossible de charger la recette du jour en ouvrant directement le fichier. Lancez un serveur HTTP local (par exemple : python -m http.server --directory RecettesUtils 8000) puis ouvrez http://localhost:8000/recette.html."
+    );
+    return;
+  }
+
   try {
     const response = await fetch("recette_du_jour.json", { cache: "no-store" });
     if (!response.ok) {
