@@ -11,6 +11,11 @@ RecettesAuto/
 │   ├── courses.json
 │   ├── menus.json
 │   └── stock.json
+├── RecettesUtils/
+│   ├── recette.html
+│   ├── recette_du_jour.json
+│   ├── script.js
+│   └── style.css
 ├── core/
 │   ├── config_manager.py
 │   ├── courses_manager.py
@@ -25,6 +30,7 @@ RecettesAuto/
 
 - **`data/`** : fichiers JSON utilisés par l’application.
 - **`core/`** : logique métier (gestion de la config, du stock, des menus et des courses, + wrapper OpenAI).
+- **`RecettesUtils/`** : utilitaire HTML/CSS/JS autonome pour consulter la recette finale du jour depuis iCloud.
 - **`coop_agent/`** : futur script Playwright pour automatiser l’ajout au panier Coop.ch.
 - **`main.py`** : point d’entrée orchestrant l’ensemble du workflow.
 - **`requirements.txt`** : dépendances Python.
@@ -59,6 +65,21 @@ python main.py
 - **Modifier le stock** : met à jour `data/stock.json`.
 - **Valider les menus** : change l’état des repas (proposé, validé, refusé).
 - **Générer les courses** : (à venir) appel à l’API GPT puis écriture de `data/courses.json`.
+
+## 📖 Utilitaire HTML « Recette du jour »
+
+Le dossier `RecettesUtils/` peut être copié tel quel dans `iCloud Drive/Raccourcis/RecettesUtils/`.
+Il contient une page statique qui lit le fichier `recette_du_jour.json` enregistré par un raccourci iOS :
+
+1. Le raccourci interroge l’API ChatGPT et génère un JSON structuré (titre, description, ingrédients, étapes).
+2. Le JSON est sauvegardé sous `recette_du_jour.json` dans le même dossier iCloud.
+3. En ouvrant `recette.html`, le script charge ce fichier et affiche automatiquement :
+   - une introduction (titre + description),
+   - la liste des ingrédients,
+   - la recette complète d’un seul bloc,
+   - un mode pas-à-pas en plein écran avec boutons « Précédent/Suivant ».
+
+Le fichier `recette_du_jour.json` fourni est un exemple : il peut être remplacé librement par le raccourci.
 
 ## 🗂️ Historique des menus
 
