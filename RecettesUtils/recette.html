@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recette du jour</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1 id="app-title">Recette du jour</h1>
+    <nav class="app-nav" aria-label="Sections de la recette">
+      <button type="button" class="nav-button active" data-target="intro">Introduction</button>
+      <button type="button" class="nav-button" data-target="ingredients">Ingrédients</button>
+      <button type="button" class="nav-button" data-target="recette">Recette complète</button>
+      <button type="button" class="nav-button" data-target="etapes">Étapes</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro" class="panel active" aria-live="polite">
+      <h2>Introduction</h2>
+      <p id="recette-description" class="description"></p>
+    </section>
+
+    <section id="ingredients" class="panel" aria-live="polite">
+      <h2>Ingrédients</h2>
+      <ul id="ingredients-list" class="ingredients"></ul>
+    </section>
+
+    <section id="recette" class="panel" aria-live="polite">
+      <h2>Recette complète</h2>
+      <article id="recette-complete" class="recette-complete"></article>
+    </section>
+
+    <section id="etapes" class="panel" aria-live="polite">
+      <h2>Étapes</h2>
+      <div class="etapes-viewer">
+        <div id="etape-contenu" class="etape-contenu"></div>
+        <div class="etapes-controls">
+          <button type="button" id="precedent" class="control-button">Précédent</button>
+          <div id="etape-compteur" class="etape-compteur" aria-live="polite"></div>
+          <button type="button" id="suivant" class="control-button">Suivant</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Les données sont chargées depuis <code>recette_du_jour.json</code>.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
