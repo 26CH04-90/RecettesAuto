@@ -79,6 +79,15 @@ Il contient une page statique qui lit le fichier `recette_du_jour.json` enregist
    - la recette complète d’un seul bloc,
    - un mode pas-à-pas en plein écran avec boutons « Précédent/Suivant ».
 
+> 💡 **Astuce** : les navigateurs modernes bloquent les requêtes `fetch` depuis un fichier ouvert directement (`file://`).
+> Pour prévisualiser la page en local, lance un petit serveur HTTP depuis la racine du dossier :
+
+```bash
+python -m http.server --directory RecettesUtils 8000
+```
+
+Ensuite, ouvre [http://localhost:8000/recette.html](http://localhost:8000/recette.html) dans ton navigateur pour charger correctement la recette du jour.
+
 Le fichier `recette_du_jour.json` fourni est un exemple : il peut être remplacé librement par le raccourci.
 
 ## 🗂️ Historique des menus
