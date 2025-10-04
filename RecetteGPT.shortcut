@@ -1,0 +1,65 @@
+{
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getfile",
+      "WFWorkflowActionParameters": {
+        "WFFilePath": "RecettesAuto/menus.json",
+        "WFGetFileActionMode": "AskWhereToSave"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getfilecontents",
+      "WFWorkflowActionParameters": {}
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.choosefromlist",
+      "WFWorkflowActionParameters": {
+        "WFItems": [
+          "Repas1",
+          "Repas2",
+          "Repas3"
+        ]
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.text",
+      "WFWorkflowActionParameters": {
+        "WFTextActionText": "Fais-moi la recette compl\u00e8te pour 2 personnes du plat suivant : [[Choix de liste]]"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getcontentsurl",
+      "WFWorkflowActionParameters": {
+        "WFHTTPMethod": "POST",
+        "WFURL": "https://api.openai.com/v1/chat/completions",
+        "WFHTTPHeaders": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer VOTRE_CLE_API"
+        },
+        "WFHTTPBody": "{\"model\": \"gpt-4o-mini\", \"messages\": [{\"role\": \"system\", \"content\": \"Tu es un chef qui \\u00e9crit des recettes pr\\u00e9cises.\"}, {\"role\": \"user\", \"content\": \"Fais-moi la recette compl\\u00e8te pour 2 personnes du plat choisi.\"}]}"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getdictionaryvalue",
+      "WFWorkflowActionParameters": {
+        "WFDictionaryKey": "choices.0.message.content"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.savefile",
+      "WFWorkflowActionParameters": {
+        "WFFilePath": "RecettesAuto/recettes.json",
+        "WFSaveFileOverwrite": true
+      }
+    }
+  ],
+  "WFWorkflowClientRelease": "2.1",
+  "WFWorkflowTypes": [
+    "NCWidget"
+  ],
+  "WFWorkflowIcon": {
+    "WFWorkflowIconGlyphNumber": 59511,
+    "WFWorkflowIconColor": 0
+  },
+  "WFWorkflowImportQuestions": []
+}
