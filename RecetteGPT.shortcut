@@ -3,7 +3,7 @@
     {
       "WFWorkflowActionIdentifier": "is.workflow.actions.getfile",
       "WFWorkflowActionParameters": {
-        "WFFilePath": "RecettesAuto/menus.json",
+        "WFFilePath": "RecettesAuto/data/menus.json",
         "WFGetFileActionMode": "AskWhereToSave"
       }
     },
@@ -12,19 +12,169 @@
       "WFWorkflowActionParameters": {}
     },
     {
-      "WFWorkflowActionIdentifier": "is.workflow.actions.choosefromlist",
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getdictionaryvalue",
       "WFWorkflowActionParameters": {
-        "WFItems": [
-          "Repas1",
-          "Repas2",
-          "Repas3"
-        ]
+        "WFDictionaryKey": "Repas1"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "RecetteDuJour"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariable": {
+          "Value": "RecetteDuJour",
+          "WFSerializationType": "WFVariableField"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getdictionaryvalue",
+      "WFWorkflowActionParameters": {
+        "WFDictionaryKey": "Titre"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "TitreRecette"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariable": {
+          "Value": "RecetteDuJour",
+          "WFSerializationType": "WFVariableField"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getdictionaryvalue",
+      "WFWorkflowActionParameters": {
+        "WFDictionaryKey": "Ingrédients"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "IngredientsRecette"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getfile",
+      "WFWorkflowActionParameters": {
+        "WFFilePath": "RecettesAuto/data/config.json",
+        "WFGetFileActionMode": "AskWhereToSave"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getfilecontents",
+      "WFWorkflowActionParameters": {}
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "Configuration"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariable": {
+          "Value": "Configuration",
+          "WFSerializationType": "WFVariableField"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getdictionaryvalue",
+      "WFWorkflowActionParameters": {
+        "WFDictionaryKey": "nombre_personnes"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "NombrePersonnes"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariable": {
+          "Value": "Configuration",
+          "WFSerializationType": "WFVariableField"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.text.replace",
+      "WFWorkflowActionParameters": {
+        "WFReplaceTextFind": "\"",
+        "WFReplaceTextReplace": "'",
+        "WFReplaceTextRegularExpression": false
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "ConfigurationTexte"
       }
     },
     {
       "WFWorkflowActionIdentifier": "is.workflow.actions.text",
       "WFWorkflowActionParameters": {
-        "WFTextActionText": "Fais-moi la recette compl\u00e8te pour 2 personnes du plat suivant : [[Choix de liste]]"
+        "WFTextActionText": "Titre de la recette : [[TitreRecette]]\nIngrédients principaux : [[IngredientsRecette]]\nNombre de personnes : [[NombrePersonnes]]\nConfiguration utilisateur : [[ConfigurationTexte]]\n\nTu es un chef professionnel spécialisé dans l'adaptation de recettes aux contraintes alimentaires.\nÀ partir de ces informations, rédige une recette complète détaillée.\nRéponds uniquement en JSON structuré contenant les clés suivantes :\n- titre (chaîne)\n- portions (nombre)\n- ingredients (liste d'objets avec nom, quantite, unite, commentaire facultatif)\n- etapes (liste ordonnée de chaînes)\n- temps_preparation (minutes)\n- temps_cuisson (minutes)\n- ustensiles (liste)\n- analyse_config (texte expliquant comment la configuration est respectée)\n- conseils (liste de suggestions complémentaires)\n\nUtilise la liste d'ingrédients fournie comme base et ajuste les quantités pour le nombre de personnes indiqué."
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "PromptBrut"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariable": {
+          "Value": "PromptBrut",
+          "WFSerializationType": "WFVariableField"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.text.replace",
+      "WFWorkflowActionParameters": {
+        "WFReplaceTextFind": "\\",
+        "WFReplaceTextReplace": "\\\\",
+        "WFReplaceTextRegularExpression": false
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.text.replace",
+      "WFWorkflowActionParameters": {
+        "WFReplaceTextFind": "\"",
+        "WFReplaceTextReplace": "\\\"",
+        "WFReplaceTextRegularExpression": false
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.text.replace",
+      "WFWorkflowActionParameters": {
+        "WFReplaceTextFind": "\n",
+        "WFReplaceTextReplace": "\\n",
+        "WFReplaceTextRegularExpression": true
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setvariable",
+      "WFWorkflowActionParameters": {
+        "WFVariableName": "PromptJSON"
       }
     },
     {
@@ -36,7 +186,7 @@
           "Content-Type": "application/json",
           "Authorization": "Bearer VOTRE_CLE_API"
         },
-        "WFHTTPBody": "{\"model\": \"gpt-4o-mini\", \"messages\": [{\"role\": \"system\", \"content\": \"Tu es un chef qui \\u00e9crit des recettes pr\\u00e9cises.\"}, {\"role\": \"user\", \"content\": \"Fais-moi la recette compl\\u00e8te pour 2 personnes du plat choisi.\"}]}"
+        "WFHTTPBody": "{\"model\":\"gpt-4o-mini\",\"response_format\":{\"type\":\"json_object\"},\"messages\":[{\"role\":\"system\",\"content\":\"Tu es un chef qui rédige des recettes précises et structurées.\"},{\"role\":\"user\",\"content\":\"[[PromptJSON]]\"}]}"
       }
     },
     {
@@ -48,7 +198,7 @@
     {
       "WFWorkflowActionIdentifier": "is.workflow.actions.savefile",
       "WFWorkflowActionParameters": {
-        "WFFilePath": "RecettesAuto/recettes.json",
+        "WFFilePath": "RecettesAuto/recette_du_jour.json",
         "WFSaveFileOverwrite": true
       }
     }
