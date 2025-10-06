@@ -1,1 +1,160 @@
-{"Repas3":{"Titre":"Saumon au four et quinoa","Ingrédients":["saumon","quinoa","courgettes","citron","aneth"],"État":"\"Refuse\""},"2025-W40":{"Repas1":"{\"Titre\":\"Curry de lentilles corail\",\"Ingrédients\":[\"lentilles\",\"lait_coco\",\"epinards\",\"patate_douce\",\"gingembre\"],\"État\":\"\\\"Valide\\\"\"}","Repas2":{"Titre":"Salade de pois chiches croustillants","Ingrédients":["pois_chiches","tomates","concombre","persil","citron"],"État":"proposé"},"Repas3":{"Titre":"Saumon au four et quinoa","Ingrédients":["saumon","quinoa","courgettes","citron","aneth"],"État":"proposé"},"Repas4":{"Titre":"Tofu fumé et brocoli sauté","Ingrédients":["tofu","brocoli","champignons","ail","tamari"],"État":"proposé"},"Repas5":{"Titre":"Soupe minestrone aux haricots blancs","Ingrédients":["haricots_blancs","carottes","blettes","tomates","origan"],"État":"proposé"},"Repas6":{"Titre":"Cabillaud vapeur et légumes racines","Ingrédients":["cabillaud","panais","carottes","poireau","huile_olive"],"État":"proposé"},"Repas7":{"Titre":"Risotto de sarrasin aux champignons","Ingrédients":["sarrasin","champignons","bouillon_legumes","petits_pois","ciboulette"],"État":"proposé"}},"Repas1":"{\"Titre\":\"Curry de lentilles corail\",\"Ingrédients\":[\"lentilles\",\"lait_coco\",\"epinards\",\"patate_douce\",\"gingembre\"],\"État\":\"\\\"Valide\\\"\"}","Repas2":{"Titre":"Salade de pois chiches croustillants","Ingrédients":["pois_chiches","tomates","concombre","persil","citron"],"État":"\"Refuse\""}}
+{
+  "2025-W40": {
+    "Repas1": {
+      "Titre": "Curry de lentilles corail",
+      "Ingrédients": [
+        "lentilles",
+        "lait_coco",
+        "epinards",
+        "patate_douce",
+        "gingembre"
+      ],
+      "État": "valide"
+    },
+    "Repas2": {
+      "Titre": "Salade de pois chiches croustillants",
+      "Ingrédients": [
+        "pois_chiches",
+        "tomates",
+        "concombre",
+        "persil",
+        "citron"
+      ],
+      "État": "refusé"
+    },
+    "Repas3": {
+      "Titre": "Saumon au four et quinoa",
+      "Ingrédients": [
+        "saumon",
+        "quinoa",
+        "courgettes",
+        "citron",
+        "aneth"
+      ],
+      "État": "proposé"
+    },
+    "Repas4": {
+      "Titre": "Tofu fumé et brocoli sauté",
+      "Ingrédients": [
+        "tofu",
+        "brocoli",
+        "champignons",
+        "ail",
+        "tamari"
+      ],
+      "État": "proposé"
+    },
+    "Repas5": {
+      "Titre": "Soupe minestrone aux haricots blancs",
+      "Ingrédients": [
+        "haricots_blancs",
+        "carottes",
+        "blettes",
+        "tomates",
+        "origan"
+      ],
+      "État": "valide"
+    },
+    "Repas6": {
+      "Titre": "Cabillaud vapeur et légumes racines",
+      "Ingrédients": [
+        "cabillaud",
+        "panais",
+        "carottes",
+        "poireau",
+        "huile_olive"
+      ],
+      "État": "proposé"
+    },
+    "Repas7": {
+      "Titre": "Risotto de sarrasin aux champignons",
+      "Ingrédients": [
+        "sarrasin",
+        "champignons",
+        "bouillon_legumes",
+        "petits_pois",
+        "ciboulette"
+      ],
+      "État": "proposé"
+    }
+  },
+  "2025-W41": {
+    "Repas1": {
+      "Titre": "Poulet rôti aux herbes et légumes racines",
+      "Ingrédients": [
+        "poulet_fermier",
+        "carottes",
+        "navets",
+        "pommes_de_terre",
+        "romarin"
+      ],
+      "État": "proposé"
+    },
+    "Repas2": {
+      "Titre": "Nouilles soba au tempeh et pak choï",
+      "Ingrédients": [
+        "nouilles_soba",
+        "tempeh",
+        "pak_choi",
+        "shiitakes",
+        "tamari"
+      ],
+      "État": "proposé"
+    },
+    "Repas3": {
+      "Titre": "Truite au four citronnée et purée de céleri-rave",
+      "Ingrédients": [
+        "truite",
+        "celeri_rave",
+        "citron",
+        "ciboulette",
+        "huile_olive"
+      ],
+      "État": "proposé"
+    },
+    "Repas4": {
+      "Titre": "Gratin de butternut au riz sauvage et noisettes",
+      "Ingrédients": [
+        "courge_butternut",
+        "riz_sauvage",
+        "noisettes",
+        "oignons_rouges",
+        "lait_coco"
+      ],
+      "État": "proposé"
+    },
+    "Repas5": {
+      "Titre": "Ragoût de pois cassés aux poireaux et carottes",
+      "Ingrédients": [
+        "pois_casses",
+        "poireaux",
+        "carottes",
+        "bouillon_legumes",
+        "thym"
+      ],
+      "État": "proposé"
+    },
+    "Repas6": {
+      "Titre": "Salade tiède de lentilles beluga, betteraves et orange",
+      "Ingrédients": [
+        "lentilles_beluga",
+        "betteraves",
+        "orange",
+        "roquette",
+        "noix"
+      ],
+      "État": "proposé"
+    },
+    "Repas7": {
+      "Titre": "Tacos de poisson blanc au chou rouge et salsa d'ananas",
+      "Ingrédients": [
+        "poisson_blanc",
+        "tortillas_mais",
+        "chou_rouge",
+        "ananas",
+        "coriandre"
+      ],
+      "État": "proposé"
+    }
+  }
+}
