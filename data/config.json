@@ -5,8 +5,8 @@
     "sans_lactose": true,
     "sans_gluten": false,
     "postpartum": false,
-    "allaitement": true,
-    "vegetarien": false,
+    "allaitement": false,
+    "vegetarien": true,
     "vegan": false,
     "pescetarien": true,
     "flexitarien": false,
@@ -16,16 +16,17 @@
   "preferences": {
     "plats_epices": false,
     "plats_en_sauce": true,
-    "fruits_de_mer": false
+    "fruits_de_mer": false,
+    "produits_de_saison": true,
+    "agrumes": false,
   },
   "options": {
-    "saisonnalite": true,
     "frequence_generation": "hebdomadaire",
     "semaines_historique": 4
   },
   "achats": {
     "priorite_bio": true,
-    "priorite_produits_locaux": true,
+    "priorite_produits_locaux": false,
     "strategie_prix": "equilibre"
   }
 }

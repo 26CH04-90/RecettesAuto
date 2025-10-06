@@ -1,0 +1,13 @@
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un chef qui écrit des recettes claires, précises et adaptées aux régimes alimentaires donnés."
+    },
+    {
+      "role": "user",
+      "content": "Fais-moi la recette complète pour 2 personnes du plat suivant : Curry de lentilles corail.\n\nIngrédients : lentilles, lait de coco, épinards, patate douce, gingembre.\n\nContraintes :\n- Sans protéines bovines\n- Sans lactose\n- Plats en sauce\n- Prends en compte la saisonnalité\n\nFormat attendu :\n1. Une introduction courte.\n2. La liste des ingrédients avec quantités précises.\n3. Les étapes numérotées de préparation et cuisson.\n4. Une suggestion de variantes ou d’accompagnements."
+    }
+  ]
+}
