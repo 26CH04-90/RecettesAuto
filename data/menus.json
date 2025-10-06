@@ -1,0 +1,161 @@
+{
+  "2025-W40": {
+    "Repas1": {
+      "Titre": "Curry de lentilles corail",
+      "Ingrédients": [
+        "lentilles",
+        "lait_coco",
+        "epinards",
+        "patate_douce",
+        "gingembre"
+      ],
+      "État": "valide"
+    },
+    "Repas2": {
+      "Titre": "Salade de pois chiches croustillants",
+      "Ingrédients": [
+        "pois_chiches",
+        "tomates",
+        "concombre",
+        "persil",
+        "citron"
+      ],
+      "État": "refusé"
+    },
+    "Repas3": {
+      "Titre": "Saumon au four et quinoa",
+      "Ingrédients": [
+        "saumon",
+        "quinoa",
+        "courgettes",
+        "citron",
+        "aneth"
+      ],
+      "État": "proposé"
+    },
+    "Repas4": {
+      "Titre": "Tofu fumé et brocoli sauté",
+      "Ingrédients": [
+        "tofu",
+        "brocoli",
+        "champignons",
+        "ail",
+        "tamari"
+      ],
+      "État": "proposé"
+    },
+    "Repas5": {
+      "Titre": "Soupe minestrone aux haricots blancs",
+      "Ingrédients": [
+        "haricots_blancs",
+        "carottes",
+        "blettes",
+        "tomates",
+        "origan"
+      ],
+      "État": "valide"
+    },
+    "Repas6": {
+      "Titre": "Cabillaud vapeur et légumes racines",
+      "Ingrédients": [
+        "cabillaud",
+        "panais",
+        "carottes",
+        "poireau",
+        "huile_olive"
+      ],
+      "État": "proposé"
+    },
+    "Repas7": {
+      "Titre": "Risotto de sarrasin aux champignons",
+      "Ingrédients": [
+        "sarrasin",
+        "champignons",
+        "bouillon_legumes",
+        "petits_pois",
+        "ciboulette"
+      ],
+      "État": "proposé"
+    }
+  },
+  "2025-W41": {
+    "Repas1": {
+      "Titre": "Velouté de potimarron et châtaignes, tartines de houmous au thym",
+      "Ingrédients": [
+        "potimarron",
+        "chataignes_precuites",
+        "bouillon_legumes",
+        "houmous",
+        "pain_campagne",
+        "thym"
+      ],
+      "État": "proposé"
+    },
+    "Repas2": {
+      "Titre": "Papillotes de truite au fenouil et pommes grenailles",
+      "Ingrédients": [
+        "filets_truite",
+        "fenouil",
+        "pommes_de_terre_grenaille",
+        "huile_olive",
+        "aneth"
+      ],
+      "État": "proposé"
+    },
+    "Repas3": {
+      "Titre": "Ragoût de pois chiches aux carottes et blettes",
+      "Ingrédients": [
+        "pois_chiches",
+        "carottes",
+        "blettes",
+        "concentre_tomate",
+        "bouillon_legumes"
+      ],
+      "État": "proposé"
+    },
+    "Repas4": {
+      "Titre": "Polenta coco aux champignons forestiers et épinards",
+      "Ingrédients": [
+        "polenta",
+        "lait_coco",
+        "champignons_forestiers",
+        "epinards",
+        "ail"
+      ],
+      "État": "proposé"
+    },
+    "Repas5": {
+      "Titre": "Salade tiède de quinoa, courge rôtie et noisettes",
+      "Ingrédients": [
+        "quinoa",
+        "courge_butternut",
+        "kale",
+        "noisettes",
+        "vinaigre_cidre"
+      ],
+      "État": "proposé"
+    },
+    "Repas6": {
+      "Titre": "Pâtes complètes aux poireaux et crème de cajou",
+      "Ingrédients": [
+        "pates_completes",
+        "poireaux",
+        "noix_de_cajou",
+        "moutarde_douce",
+        "levure_maltee"
+      ],
+      "État": "proposé"
+    },
+    "Repas7": {
+      "Titre": "Galettes de sarrasin aux haricots rouges et chou braisé",
+      "Ingrédients": [
+        "galettes_sarrasin",
+        "haricots_rouges",
+        "chou_rouge",
+        "pommes",
+        "vinaigre_cidre"
+      ],
+      "État": "proposé"
+    }
+  }
+}

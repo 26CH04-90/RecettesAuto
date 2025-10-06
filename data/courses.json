@@ -1,0 +1,732 @@
+{
+  "metadata": {
+    "menus_source": "menus.json",
+    "semaine": "2025-W41",
+    "nombre_personnes": 2,
+    "frequence_generation": "hebdomadaire"
+  },
+  "items": [
+    {
+      "slug": "potimarron",
+      "display_name": "Potimarron bio",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 1,
+        "unit": "pièce"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "potimarron bio"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas1"
+      ]
+    },
+    {
+      "slug": "chataignes_precuites",
+      "display_name": "Châtaignes précuites sous vide",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "chataignes cuites"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas1"
+      ]
+    },
+    {
+      "slug": "bouillon_legumes",
+      "display_name": "Cubes de bouillon de légumes",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 2,
+        "unit": "pièces"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "bouillon legumes bio"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas1",
+        "Repas3",
+        "Repas4",
+        "Repas6"
+      ]
+    },
+    {
+      "slug": "houmous",
+      "display_name": "Houmous nature",
+      "category": "Traiteur frais",
+      "quantity": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "houmous bio"
+          ],
+          "preferred_section": "Traiteur"
+        }
+      },
+      "recipes": [
+        "Repas1"
+      ]
+    },
+    {
+      "slug": "pain_campagne",
+      "display_name": "Pain de campagne tranché",
+      "category": "Boulangerie",
+      "quantity": {
+        "amount": 4,
+        "unit": "tranches"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "pain campagne"
+          ],
+          "preferred_section": "Boulangerie"
+        }
+      },
+      "recipes": [
+        "Repas1"
+      ]
+    },
+    {
+      "slug": "thym",
+      "display_name": "Thym frais",
+      "category": "Herbes fraîches",
+      "quantity": {
+        "amount": 1,
+        "unit": "botte"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "thym frais"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas1"
+      ]
+    },
+    {
+      "slug": "filets_truite",
+      "display_name": "Filets de truite",
+      "category": "Poissonnerie",
+      "quantity": {
+        "amount": 320,
+        "unit": "g"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "filet truite"
+          ],
+          "preferred_section": "Poissonnerie"
+        }
+      },
+      "recipes": [
+        "Repas2"
+      ]
+    },
+    {
+      "slug": "fenouil",
+      "display_name": "Bulbe de fenouil",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 1,
+        "unit": "pièce"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "fenouil"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas2"
+      ]
+    },
+    {
+      "slug": "pommes_de_terre_grenaille",
+      "display_name": "Pommes de terre grenailles",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 400,
+        "unit": "g"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "pomme de terre grenaille"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas2"
+      ]
+    },
+    {
+      "slug": "huile_olive",
+      "display_name": "Huile d'olive vierge extra",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 0.5,
+        "unit": "L"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "huile olive bio"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas2",
+        "Repas3",
+        "Repas5"
+      ]
+    },
+    {
+      "slug": "aneth",
+      "display_name": "Aneth frais",
+      "category": "Herbes fraîches",
+      "quantity": {
+        "amount": 1,
+        "unit": "botte"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "aneth"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas2"
+      ]
+    },
+    {
+      "slug": "pois_chiches",
+      "display_name": "Pois chiches cuits (bocal)",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 400,
+        "unit": "g"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "pois chiches bocal"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas3"
+      ]
+    },
+    {
+      "slug": "carottes",
+      "display_name": "Carottes",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 4,
+        "unit": "pièces"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "carottes bio"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas3"
+      ]
+    },
+    {
+      "slug": "blettes",
+      "display_name": "Blettes",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 1,
+        "unit": "botte"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "blettes"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas3"
+      ]
+    },
+    {
+      "slug": "concentre_tomate",
+      "display_name": "Concentré de tomate",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 90,
+        "unit": "g"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "concentre tomate"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas3"
+      ]
+    },
+    {
+      "slug": "polenta",
+      "display_name": "Semoule de maïs pour polenta",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "purchase_form": "sec",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "polenta"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas4"
+      ]
+    },
+    {
+      "slug": "lait_coco",
+      "display_name": "Lait de coco cuisine",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 400,
+        "unit": "ml"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "lait coco"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas4"
+      ]
+    },
+    {
+      "slug": "champignons_forestiers",
+      "display_name": "Mélange de champignons forestiers",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 300,
+        "unit": "g"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "champignon forestier"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas4"
+      ]
+    },
+    {
+      "slug": "epinards",
+      "display_name": "Jeunes pousses d'épinards",
+      "category": "Légumes feuilles",
+      "quantity": {
+        "amount": 150,
+        "unit": "g"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "epinards frais"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas4"
+      ]
+    },
+    {
+      "slug": "ail",
+      "display_name": "Tête d'ail",
+      "category": "Épicerie fraîche",
+      "quantity": {
+        "amount": 1,
+        "unit": "tête"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "ail"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas4",
+        "Repas6",
+        "Repas7"
+      ]
+    },
+    {
+      "slug": "quinoa",
+      "display_name": "Quinoa blond",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 200,
+        "unit": "g"
+      },
+      "purchase_form": "sec",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "quinoa bio"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas5"
+      ]
+    },
+    {
+      "slug": "courge_butternut",
+      "display_name": "Courge butternut",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 1,
+        "unit": "petite"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "butternut bio"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas5"
+      ]
+    },
+    {
+      "slug": "kale",
+      "display_name": "Feuilles de kale",
+      "category": "Légumes feuilles",
+      "quantity": {
+        "amount": 1,
+        "unit": "botte"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "kale"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas5"
+      ]
+    },
+    {
+      "slug": "noisettes",
+      "display_name": "Noisettes décortiquées",
+      "category": "Épicerie sèche",
+      "quantity": {
+        "amount": 80,
+        "unit": "g"
+      },
+      "purchase_form": "sec",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "noisettes"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas5"
+      ]
+    },
+    {
+      "slug": "vinaigre_cidre",
+      "display_name": "Vinaigre de cidre",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 0.25,
+        "unit": "L"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "vinaigre cidre"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas5",
+        "Repas7"
+      ]
+    },
+    {
+      "slug": "pates_completes",
+      "display_name": "Pâtes complètes",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 250,
+        "unit": "g"
+      },
+      "purchase_form": "sec",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "pates completes"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas6"
+      ]
+    },
+    {
+      "slug": "poireaux",
+      "display_name": "Poireaux",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 2,
+        "unit": "pièces"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "poireau"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas6"
+      ]
+    },
+    {
+      "slug": "noix_de_cajou",
+      "display_name": "Noix de cajou nature",
+      "category": "Épicerie sèche",
+      "quantity": {
+        "amount": 100,
+        "unit": "g"
+      },
+      "purchase_form": "sec",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "noix de cajou"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas6"
+      ]
+    },
+    {
+      "slug": "moutarde_douce",
+      "display_name": "Moutarde douce",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 1,
+        "unit": "pot"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "moutarde douce"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas6"
+      ]
+    },
+    {
+      "slug": "levure_maltee",
+      "display_name": "Levure maltée en paillettes",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 50,
+        "unit": "g"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "levure maltee"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas6"
+      ]
+    },
+    {
+      "slug": "galettes_sarrasin",
+      "display_name": "Galettes de sarrasin",
+      "category": "Boulangerie",
+      "quantity": {
+        "amount": 4,
+        "unit": "pièces"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "galette sarrasin"
+          ],
+          "preferred_section": "Boulangerie"
+        }
+      },
+      "recipes": [
+        "Repas7"
+      ]
+    },
+    {
+      "slug": "haricots_rouges",
+      "display_name": "Haricots rouges cuits (bocal)",
+      "category": "Épicerie",
+      "quantity": {
+        "amount": 400,
+        "unit": "g"
+      },
+      "purchase_form": "emballé",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "haricots rouges bocal"
+          ],
+          "preferred_section": "Épicerie"
+        }
+      },
+      "recipes": [
+        "Repas7"
+      ]
+    },
+    {
+      "slug": "chou_rouge",
+      "display_name": "Chou rouge",
+      "category": "Légumes",
+      "quantity": {
+        "amount": 1,
+        "unit": "petit"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "chou rouge"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas7"
+      ]
+    },
+    {
+      "slug": "pommes",
+      "display_name": "Pommes croquantes",
+      "category": "Fruits",
+      "quantity": {
+        "amount": 2,
+        "unit": "pièces"
+      },
+      "purchase_form": "frais",
+      "store": {
+        "coop": {
+          "search_terms": [
+            "pommes bio"
+          ],
+          "preferred_section": "Fruits & Légumes"
+        }
+      },
+      "recipes": [
+        "Repas7"
+      ]
+    }
+  ]
+}
