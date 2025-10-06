@@ -80,79 +80,80 @@
   },
   "2025-W41": {
     "Repas1": {
-      "Titre": "Poulet rôti aux herbes et légumes racines",
+      "Titre": "Velouté de potimarron et châtaignes, tartines de houmous au thym",
       "Ingrédients": [
-        "poulet_fermier",
-        "carottes",
-        "navets",
-        "pommes_de_terre",
-        "romarin"
-      ],
-      "État": "proposé"
-    },
-    "Repas2": {
-      "Titre": "Nouilles soba au tempeh et pak choï",
-      "Ingrédients": [
-        "nouilles_soba",
-        "tempeh",
-        "pak_choi",
-        "shiitakes",
-        "tamari"
-      ],
-      "État": "proposé"
-    },
-    "Repas3": {
-      "Titre": "Truite au four citronnée et purée de céleri-rave",
-      "Ingrédients": [
-        "truite",
-        "celeri_rave",
-        "citron",
-        "ciboulette",
-        "huile_olive"
-      ],
-      "État": "proposé"
-    },
-    "Repas4": {
-      "Titre": "Gratin de butternut au riz sauvage et noisettes",
-      "Ingrédients": [
-        "courge_butternut",
-        "riz_sauvage",
-        "noisettes",
-        "oignons_rouges",
-        "lait_coco"
-      ],
-      "État": "proposé"
-    },
-    "Repas5": {
-      "Titre": "Ragoût de pois cassés aux poireaux et carottes",
-      "Ingrédients": [
-        "pois_casses",
-        "poireaux",
-        "carottes",
+        "potimarron",
+        "chataignes_precuites",
         "bouillon_legumes",
+        "houmous",
+        "pain_campagne",
         "thym"
       ],
       "État": "proposé"
     },
-    "Repas6": {
-      "Titre": "Salade tiède de lentilles beluga, betteraves et orange",
+    "Repas2": {
+      "Titre": "Papillotes de truite au fenouil et pommes grenailles",
       "Ingrédients": [
-        "lentilles_beluga",
-        "betteraves",
-        "orange",
-        "roquette",
-        "noix"
+        "filets_truite",
+        "fenouil",
+        "pommes_de_terre_grenaille",
+        "huile_olive",
+        "aneth"
+      ],
+      "État": "proposé"
+    },
+    "Repas3": {
+      "Titre": "Ragoût de pois chiches aux carottes et blettes",
+      "Ingrédients": [
+        "pois_chiches",
+        "carottes",
+        "blettes",
+        "concentre_tomate",
+        "bouillon_legumes"
+      ],
+      "État": "proposé"
+    },
+    "Repas4": {
+      "Titre": "Polenta coco aux champignons forestiers et épinards",
+      "Ingrédients": [
+        "polenta",
+        "lait_coco",
+        "champignons_forestiers",
+        "epinards",
+        "ail"
+      ],
+      "État": "proposé"
+    },
+    "Repas5": {
+      "Titre": "Salade tiède de quinoa, courge rôtie et noisettes",
+      "Ingrédients": [
+        "quinoa",
+        "courge_butternut",
+        "kale",
+        "noisettes",
+        "vinaigre_cidre"
+      ],
+      "État": "proposé"
+    },
+    "Repas6": {
+      "Titre": "Pâtes complètes aux poireaux et crème de cajou",
+      "Ingrédients": [
+        "pates_completes",
+        "poireaux",
+        "noix_de_cajou",
+        "moutarde_douce",
+        "levure_maltee"
       ],
       "État": "proposé"
     },
     "Repas7": {
-      "Titre": "Tacos de poisson blanc au chou rouge et salsa d'ananas",
+      "Titre": "Galettes de sarrasin aux haricots rouges et chou braisé",
       "Ingrédients": [
-        "poisson_blanc",
-        "tortillas_mais",
+        "galettes_sarrasin",
+        "haricots_rouges",
         "chou_rouge",
-        "ananas",
-        "coriandre"
+        "pommes",
+        "vinaigre_cidre"
       ],
       "État": "proposé"
     }
